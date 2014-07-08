@@ -1,0 +1,8 @@
+{
+  "name": "Dialer Test",
+  "description": "Just trying to access telephony from the Web",
+  "launch_path": "/index.html",
+  "permissions": {
+    "telephony": {}
+  }
+}
