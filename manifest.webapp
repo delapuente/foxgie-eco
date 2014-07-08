@@ -1,7 +1,7 @@
 {
   "name": "Dialer Test",
   "description": "Just trying to access telephony from the Web",
-  "launch_path": "/index.html",
+  "launch_path": "/foxgie-eco/index.html",
   "permissions": {
     "telephony": {}
   }
