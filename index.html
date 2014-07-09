@@ -7,9 +7,9 @@
       filterBy    : ["givenName","name","nickName"],
       filterOp    : "contains",
       filterLimit : 1,
-      sortBy      : "familyName"
+      sortBy      : "familyName",
       sortOrder   : "ascending"
-    }
+    };
 
     var search = navigator.mozContacts.find(options);
 
@@ -20,11 +20,11 @@
       } else {
         console.log("Sorry, there is no such contact.")
       }
-    }
+    };
 
     search.onerror = function() {
       console.warn("Uh! Something goes wrong, no result found!");
-    } 
+    };
 
     alert(typeof window.navigator.mozTelephony.dial);
     </script>
